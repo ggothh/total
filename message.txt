@@ -1,10 +1,10 @@
 shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​u​t​f​i​t​D​i​s​p​a​t​c​h​e​s​I​X​P​2"] = {
     ["Main"] = {
-        ['Loader'] = { ['Key'] = ('0x898bCoLq8eiis4Pr0ir8MHzu6W4I5o') },
+        ['Loader'] = { ['Key'] = ('Z5TejdY6x09vhe02azoYMOMaMUTPXJEr') },
     },
     
     ["Universal"] = {
-        ['Indicators'] = { ['Enabled'] = (true) },
+        ['Indicators'] = { ['false'] = (true) },
     },
     
     ["SilentAim"] = {
@@ -46,15 +46,15 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.125), ['Air'] = (0.125), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
-        ['Interval'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.1), ['[TacticalShotgun]'] = (0.1), ['[Revolver]'] = (0.1) } }, --[[ In MS ]]--
+        ['Interval'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.1), ['[TacticalShotgun]'] = (0.1), ['[Revolver]'] = (0.01) } }, --[[ In MS ]]--
         --[[ Cursor mode doesn't work on offbrands due to hitboxes, use this Magnitude instead ]]
         ['Magnitude'] = { ['Weapon'] = { ['[Double-Barrel SG]'] = { X = (26), Y = (50) }, ['[TacticalShotgun]'] = { X = (50), Y = (50) }, ['[Revolver]'] = { X = (26), Y = (50) } } } --[[ Keep these lower for legit cheating, higher for rage ]]
     },
 
     ["Physics"] = {
-        ['Walking'] = { ['Enabled'] = (true), ['Toggle'] = ('Q'), ['Amount'] = (5) }, 
-        ['Falling'] = { ['Enabled'] = (true) }, --[[ Anti Fall ]]
-        ['Jumping'] = { ['Enabled'] = (true) }, --[[ No Jump Cooldown ]]
+        ['Walking'] = { ['fakse'] = (true), ['Toggle'] = ('Q'), ['Amount'] = (5) }, 
+        ['Falling'] = { ['false'] = (true) }, --[[ Anti Fall ]]
+        ['Jumping'] = { ['false'] = (true) }, --[[ No Jump Cooldown ]]
         ['Velocity'] = { ['Always On'] = (false), ['Magnitude'] = 150 }
     },  
 
@@ -88,7 +88,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
-        ['SilentAimField'] = { ['Size'] = (110) },
+        ['SilentAimField'] = { ['Size'] = (35) },
         ['TriggerBotField'] = { ['Size'] = (7) }, --[[ For offbrands ]]
         ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (8), ['Height'] = (8) }
     },
