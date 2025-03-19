@@ -1,6 +1,6 @@
 shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​u​t​f​i​t​D​i​s​p​a​t​c​h​e​s​I​X​P​2"] = {
     ["Main"] = {
-        ['Loader'] = { ['Key'] = ('0x898bCoLq8eiis4Pr0ir8MHzu6W4I5o') },
+        ['Loader'] = { ['Key'] = ('Z5TejdY6x09vhe02azoYMOMaMUTPXJEr') },
     },
     
     ["Universal"] = {
@@ -88,7 +88,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
-        ['SilentAimField'] = { ['Size'] = (110) },
+        ['SilentAimField'] = { ['Size'] = (60) },
         ['TriggerBotField'] = { ['Size'] = (7) }, --[[ For offbrands ]]
         ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (8), ['Height'] = (8) }
     },
